@@ -40,7 +40,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.MainClass</mainClass>
+                            <mainClass>calculator.Calculator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
