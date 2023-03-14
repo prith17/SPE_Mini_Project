@@ -73,8 +73,8 @@ public class Calculator {
         } while (true);
     }
 
-    public double factorial(double number1) {
-        double result = fact(number1);
+    public int factorial(double number1) {
+        int result = fact(number1);
         return result;
     }
 
@@ -93,8 +93,8 @@ public class Calculator {
         return result;
     }
 
-    public double fact(double num) {
-        double facto = 1;
+    public int fact(double num) {
+        int facto = 1;
         for(int i = 1; i <= num; i++) {
             facto *= i;
         }

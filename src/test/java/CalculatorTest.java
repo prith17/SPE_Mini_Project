@@ -14,7 +14,7 @@ public class CalculatorTest {
     @Test
     public void testFactorial() {
         Calculator calculator = new Calculator();
-        double result = calculator.fact(5);
+        int result = calculator.fact(5);
         assertEquals(120, result);
     }
 
