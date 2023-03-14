@@ -120,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678784120671</updated>
-      <workItem from="1678784122559" duration="14495000" />
+      <workItem from="1678784122559" duration="15023000" />
     </task>
     <task id="LOCAL-00001" summary="Added Calculator.java and CalculatorTest.java and few config files">
       <created>1678787048993</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678818185745</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated pom.xml">
+      <created>1678818362630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678818362630</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
