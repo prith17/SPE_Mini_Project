@@ -1,10 +1,13 @@
 package calculator;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.InputMismatchException;
+import java.util.Properties;
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import org.apache.log4j.PropertyConfigurator;
 public class Calculator {
 
     private static final Logger logger = LogManager.getLogger(Calculator.class);
@@ -13,6 +16,23 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
+//        Properties props = new Properties();
+//        props.load(Calculator.class.getResourceAsStream("/log4j.properties"));
+//        PropertyConfigurator.configure(props);
+
+//        Properties properties = null;
+
+        try {
+            Properties properties = new Properties();
+            InputStream resourceAsStream =  Calculator.class.getClassLoader().getResourceAsStream("log4j.properties");
+            if (resourceAsStream != null) {
+                properties.load(resourceAsStream);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
         do {
