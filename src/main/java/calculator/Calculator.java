@@ -55,18 +55,18 @@ public class Calculator {
                     // Factorial
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
-                    logger.info("Calculating factorial of " + number1);
+                    logger.info("INPUT: Calculating factorial of " + number1);
                     System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
-                    logger.info("Result of factorial calculation: " + calculator.factorial(number1));
+                    logger.info("OUTPUT: Result of factorial calculation: " + calculator.factorial(number1));
                     System.out.println("\n");
                     break;
                 case 2:
                     // Square root
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
-                    logger.info("Calculating square root of " + number1);
+                    logger.info("INPUT: Calculating square root of " + number1);
                     System.out.println("Square root of "+number1+" is : " + calculator.squareRoot(number1));
-                    logger.info("Result of square root calculation: " + calculator.squareRoot(number1));
+                    logger.info("OUTPUT: Result of square root calculation: " + calculator.squareRoot(number1));
                     System.out.println("\n");
                     break;
                 case 3:
@@ -75,18 +75,18 @@ public class Calculator {
                     number1 = scanner.nextDouble();
                     System.out.print("Enter the exponent : ");
                     number2 = scanner.nextDouble();
-                    logger.info("Calculating " + number1 + " raised to the power of " + number2);
+                    logger.info("INPUT: Calculating " + number1 + " raised to the power of " + number2);
                     System.out.println(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
-                    logger.info("Result of power calculation: " + calculator.power(number1, number2));
+                    logger.info("OUTPUT: Result of power calculation: " + calculator.power(number1, number2));
                     System.out.println("\n");
                     break;
                 case 4:
                     // Natural log
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
-                    logger.info("Calculating natural log of " + number1);
+                    logger.info("INPUT: Calculating natural log of " + number1);
                     System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
-                    logger.info("Result of natural log calculation: " + calculator.naturalLog(number1));
+                    logger.info("OUTPUT: Result of natural log calculation: " + calculator.naturalLog(number1));
                     System.out.println("\n");
                     break;
                 default:
