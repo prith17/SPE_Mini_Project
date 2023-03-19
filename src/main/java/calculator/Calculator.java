@@ -5,8 +5,10 @@ import java.io.InputStream;
 import java.util.InputMismatchException;
 import java.util.Properties;
 import java.util.Scanner;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 public class Calculator {
 
@@ -22,17 +24,18 @@ public class Calculator {
 
 //        Properties properties = null;
 
-        try {
-            Properties properties = new Properties();
-            InputStream resourceAsStream =  Calculator.class.getClassLoader().getResourceAsStream("log4j.properties");
-            if (resourceAsStream != null) {
-                properties.load(resourceAsStream);
-            }
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Properties properties = new Properties();
+//            InputStream resourceAsStream =  Calculator.class.getClassLoader().getResourceAsStream("log4j.properties");
+//            if (resourceAsStream != null) {
+//                properties.load(resourceAsStream);
+//            }
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+        BasicConfigurator.configure();
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
         do {
