@@ -9,7 +9,7 @@ Create a scientific calculator program with user menu driven operations
 ## DevOps tool chain
 You can use any set of DevOps tool chains you want, but the pipeline would be the same.
 The pipeline includes
-1. Using a source control management tool - like GitHub, GitLab, BitBucket etc
+1. Using a source control management tool - like GitHub, GitLab, BitBucket etc.
 2. Testing - test your code using either JUnit, Selenium, PyUnit and many more
 3. Build - build your code using tool like Maven, Gradle, Ant and many more
 4. Continuous Integration - Continuous integrate your code using tool like Jenkins,
