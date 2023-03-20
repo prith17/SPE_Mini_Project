@@ -1,6 +1,6 @@
 # SPE_Mini_Project
 ## Problem Statement
-Create a scientific calculator program with user menu driven operations  
+Create a scientific calculator program with user menu driven operations:  
 ● Square root function.  
 ● Factorial function.  
 ● Natural logarithm (base е).  
