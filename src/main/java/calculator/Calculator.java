@@ -18,12 +18,6 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-//        Properties props = new Properties();
-//        props.load(Calculator.class.getResourceAsStream("/log4j.properties"));
-//        PropertyConfigurator.configure(props);
-
-//        Properties properties = null;
-
 //        try {
 //            Properties properties = new Properties();
 //            InputStream resourceAsStream =  Calculator.class.getClassLoader().getResourceAsStream("log4j.properties");
