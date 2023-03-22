@@ -15,7 +15,7 @@ The pipeline includes:
 4. Continuous Integration - Continuous integrate your code using tool like Jenkins,
 GitLab CLI, Travis CLI, and many more.
 5. Containerize - Containerize your code using Docker.
-6. Push your created Docker image to Docker hub.
+6. Push your created Docker image to Docker hub
 7. Deployment - Do configuration management and deployment using either Chef,
 Puppet, Ansible, Rundeck. Using these do configuration management and pull your
 docker image and run it on the managed hosts.
