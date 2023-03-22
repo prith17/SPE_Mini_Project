@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a11d74a0-6e67-4175-9482-b88a7f6ec6af" name="Changes" comment="Updated log4j.properties,renamed p3.yml to docker-deploy.yml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a11d74a0-6e67-4175-9482-b88a7f6ec6af" name="Changes" comment="Updated Readme.md">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,7 @@
       <workItem from="1679199526929" duration="8131000" />
       <workItem from="1679420289634" duration="647000" />
       <workItem from="1679420998686" duration="67000" />
-      <workItem from="1679456047526" duration="370000" />
+      <workItem from="1679456047526" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="Added Calculator.java and CalculatorTest.java and few config files">
       <created>1678787048993</created>
@@ -240,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679209903842</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated Readme.md">
+      <created>1679456441994</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679456441994</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated Readme.md">
+      <created>1679456693118</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679456693118</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +276,7 @@
     <MESSAGE value="Updated pom.xml, Added inventory and p3.yml" />
     <MESSAGE value="Updated pom.xml and Added log4j.log,log4j.properties" />
     <MESSAGE value="Updated log4j.properties,renamed p3.yml to docker-deploy.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated log4j.properties,renamed p3.yml to docker-deploy.yml" />
+    <MESSAGE value="Updated Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
   </component>
 </project>

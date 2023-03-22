@@ -13,7 +13,7 @@ The pipeline includes:
 2. Testing - test your code using either JUnit, Selenium, PyUnit and many more.
 3. Build - build your code using tool like Maven, Gradle, Ant and many more
 4. Continuous Integration - Continuous integrate your code using tool like Jenkins,
-GitLab CLI, Travis CLI, and many more
+GitLab CLI, Travis CLI, and many more.
 5. Containerize - Containerize your code using Docker.
 6. Push your created Docker image to Docker hub.
 7. Deployment - Do configuration management and deployment using either Chef,
